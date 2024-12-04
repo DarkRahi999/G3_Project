@@ -24,7 +24,8 @@
   --gray-900: #212529;
   --black: #000000;
   /*-_----------{  Website theme Color Variables  }----------_*/
-  --Primary-1: #fff;
+  --Primary-1: #FF900E;
+  --primary-dark: #d3750b;
   /*-_----------{  Website Font Variables  }----------_*/
   --font-1: "Work Sans", serif;
 }
@@ -66,7 +67,7 @@ a:hover{
 }
 body{
   max-width: 100%;
-  font-size: 100%;
+  font-size: 16px;
   font-family: var(--my-font-1);
   line-height: 1.5;
   color: var(--gray-900);
@@ -88,10 +89,92 @@ html{
 }
 /*//_--------------{  Default Style For all  }--------------_*/
 /*G_--------------{  Start Header Section Style  }--------------_*/
-
+header{
+  background-color: #f8dede;
+  padding: 30px 12%;
+}
+/*O_----------{  nav-title Style  }---------_*/
+.nav{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .title{
+  font-size: 1.8rem;
+}
+/*O_----------{  menu Style  }---------_*/
+.nav .menu a{
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-left: 30px;
+  transition: 0.4s;
+}
+.nav .menu a:hover{
+  color: var(--red);
+  font-size: 1.1rem;
+}
+/*O_----------{  banner Style  }---------_*/
+/*-_ banner-heading style  */
+.banner-heading{
+  text-align: center;
+  width: 80%;
+  margin: 40px auto;
+}
+.banner-heading h1{
+  font-size: 3rem;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+.banner-heading p{
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/*-_ banner-body style  */
+.banner-body img{
+  width: 100%;
+  height: 460px;
+}
+/*-_ banner-btn style  */
+.banner .btn{
+  color: var(--white);
+  background-color: var(--Primary-1);
+  border-radius: 6px;
+  font-size: 1.2rem;
+  flex-wrap: 600;
+  padding: 10px 15px;
+}
+.banner .btn:hover{
+  background-color: var(--primary-dark);
+}
 /*//_--------------{  Header Section Style  }--------------_*/
 /*G_--------------{  Start Extra Section Style  }---------------_*/
-
+section{
+  padding: 60px 12%;
+}
+/*O_----------{  Quick Features Section Style  }---------_*/
+.Features{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* -_ Features-img style  */
+.Features-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.Features-img img{
+  width: 100%;
+  height: 220px;
+  border-radius: 6px;
+}
+/* -_ Features-des style  */
+.Features-des{
+  padding: 7%;
+}
 /*//_--------------{  Extra Section Style  }-------------_*/
 /*G_--------------{  Start Footer Section Style  }---------------_*/
 
