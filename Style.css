@@ -90,7 +90,7 @@ html{
 /*//_--------------{  Default Style For all  }--------------_*/
 /*G_--------------{  Start Header Section Style  }--------------_*/
 header{
-  background-color: #f8dede;
+  background-color: #f8f0f0;
   padding: 30px 12%;
 }
 /*O_----------{  nav-title Style  }---------_*/
@@ -139,7 +139,7 @@ header{
   height: 460px;
 }
 /*-_ banner-btn style  */
-.banner .btn{
+.btn{
   color: var(--white);
   background-color: var(--Primary-1);
   border-radius: 6px;
@@ -147,7 +147,7 @@ header{
   flex-wrap: 600;
   padding: 10px 15px;
 }
-.banner .btn:hover{
+.btn:hover{
   background-color: var(--primary-dark);
 }
 /*//_--------------{  Header Section Style  }--------------_*/
@@ -158,7 +158,7 @@ section{
 /*O_----------{  Quick Features Section Style  }---------_*/
 .Features{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 55% 45%;
 }
 /* -_ Features-img style  */
 .Features-img{
@@ -173,9 +173,155 @@ section{
 }
 /* -_ Features-des style  */
 .Features-des{
-  padding: 7%;
+  padding: 9%;
+  height: 350px;
+  margin: auto;
+}
+/* -_ heading span style  */
+.Features-des h1{
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+.span-01{
+  color: var(--gray-500);
+}
+.span-02{
+  color: var(--gray-900);
+}
+.span-03{
+  color: var(--Primary-1);
+}
+.Features-des p{
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+/*O_----------{  about Features Section Style  }---------_*/
+.about-Features{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  margin-bottom: 60px;
+}
+/* -_ heading style  */
+.about-heading{
+  margin-bottom: 5px;
+}
+.about-heading h1{
+  color: var(--black);
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 25px;
+  padding: 0px 20px;
+  border-left: 5px solid var(--Primary-1);
+  line-height: 35px;
+}
+.about-heading p{
+  font-size: 12px;
+  font-weight: 350;
+  padding: 0 20% 0 0;
+}
+/* -_ about body style  */
+.about-body{
+  padding: 5%;
+}
+.about-body p{
+  font-size: 12px;
+  font-weight: 350;
+  padding: 0 25% 0 0;
+}
+.about-body > div{
+  height: 120px;
+}
+/* -_ about-photo style  */
+.about-photo img{
+  height: 700px;
+  width: 100%;
+}
+/* -_ experience style  */
+.experience{
+  background-color: var(--Primary-1);
+  color: var(--white);
+  height: 150px;
+  width: 250px;
+  padding: 35px 20px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -50px;
+  left: 45%;
+}
+.experience h2{
+  font-size: 46px;
+}
+.experience h6{
+  font-size: 18px;
+}
+/*O_----------{  Facts Section Style  }---------_*/
+.facts{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* -_ Fact heading  */
+.fact-heading h2{
+  font-size: 30px;
+  padding-top: 80px;
+}
+.fact-heading p{
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+/* -_ Fact body  */
+.fact-body{
+  display: flex;
+  justify-content: space-between;
+}
+.fact-body > div{
+  width: 200px;
+  border: 1px solid rosybrown;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.fact-body h3{
+  font-size: 30px;
+}
+.fact-body h6{
+  font-size: 14px;
+}
+/*O_----------{  Sponsor Section Style  }---------_*/
+.sponsor{
+  padding-top: 80px;
+}
+/* -_ Fact Heading  */
+.sponsor-heading h2{
+  font-size: 32px;
+}
+.sponsor-heading p{
+  font-size: 14px;
+  font-weight: 300;
+}
+/* -_ Fact Body  */
+.sponsor-body{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+.sponsor-body img{
+  width: 70%;
 }
 /*//_--------------{  Extra Section Style  }-------------_*/
 /*G_--------------{  Start Footer Section Style  }---------------_*/
-
+footer p{
+  color: var(--gray-600);
+  padding: 20px;
+  background-color: #f8f0f0;
+}
 /*//_--------------{  Footer Section Style  }--------------_*/
