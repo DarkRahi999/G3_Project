@@ -25,10 +25,120 @@
 /*R_--------------------------------------{  Start Default Style For all  }--------------------------------------_*/
 /*Y_------------{  Extra small devices (phones, 576px and down) }------------*/
 @media screen and (max-width: 576px ) {
-  
+/*G_--------------{  Start Header Section Style  }--------------_*/
+  header{
+    padding: 0 5%;
+  }
+  /*O_----------{  nav-title Style  }---------_*/
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .nav .title{
+    font-size: 25px;
+  }
+/*O_----------{  banner Style  }---------_*/
+  .banner-heading h1{
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+/*G_--------------{  Start Extra Section Style  }---------------_*/
+  section{
+    padding: 50px 5%;
+  }
+/*O_----------{  Quick Features Section Style  }---------_*/
+  .Features{
+    display: block;
+  }
+  .Features-des h1{
+    margin-bottom: 20px;
+  }
+/*O_----------{  about Features Section Style  }---------_*/
+  .about-Features{
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  .experience{
+    height: 120px;
+    width: 250px;
+    padding: 20px 10px;
+    position: absolute;
+    top: 48%;
+    left: 1px;
+  }
+  .experience h2{
+    font-size: 46px;
+  }
+  .experience h6{
+    font-size: 18px;
+  }
+/*O_----------{  Facts Section Style  }---------_*/
+  .facts{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .fact-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fact-body > div{
+    width: 65%;
+    margin: auto;
+  }
+/*O_----------{  Sponsor Section Style  }---------_*/
+  .sponsor-body{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding-bottom: 0px;
+  }
+  .sponsor-body img{
+    width: 80%;
+}
 } 
 /*Y_------------{  Medium devices (landscape tablets, 768px and up) }------------*/
 @media screen and (min-width: 576px ) and (max-width: 992px ) {
-  
+/*G_--------------{  Start Header Section Style  }--------------_*/
+  header{
+    padding: 10px 8%;
+  }
+/*O_----------{  nav-title Style  }---------_*/
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .nav .title{
+    font-size: 30px;
+  }
+/*G_--------------{  Start Extra Section Style  }---------------_*/
+  section{
+    padding: 60px 8%;
+  }
+/*O_----------{  Quick Features Section Style  }---------_*/
+.Features-des h1{
+    margin-bottom: 20px;
+  }
+/*O_----------{  about Features Section Style  }---------_*/
+.about-Features{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  position: relative;
+}
+.about-heading p{
+  padding: 0 10% 0 0;
+  text-align: justify;
+}
+.about-body p{
+  padding: 0 22% 0 0;
+}
+.fact-body > div{
+  width: 22%;
+}
 } 
 /*//_--------------{  Default Style For all  }--------------//*/
